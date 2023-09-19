@@ -84,7 +84,7 @@ async def sanic_redis_query_test(req, username: str):
 
 
 def main():
-    app.run()
+    app.run(host="127.0.01", port=8001)
 
 
 if __name__ == '__main__':
