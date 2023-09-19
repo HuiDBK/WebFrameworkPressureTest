@@ -1,0 +1,9 @@
+# fastapi
+fastapi==0.103.1
+uvicorn==0.23.2
+
+# sanic
+sanic==23.6.0
+
+# db
+hui-tools[db-orm, db-redis]==0.2.0
