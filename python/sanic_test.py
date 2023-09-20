@@ -88,5 +88,5 @@ def main():
 
 
 if __name__ == '__main__':
-    # sanic sanic_test.app -p 8001 -w 4 --access-log=False
+    # sanic python.sanic_test.app -p 8001 -w 4 --access-log=False
     main()

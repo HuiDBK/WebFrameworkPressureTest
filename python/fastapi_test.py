@@ -87,4 +87,5 @@ async def fastapi_redis_query_test(username: str):
 
 
 if __name__ == '__main__':
+    # uvicorn python.fastapi_test:app --log-level critical --port 8000 --workers 4
     uvicorn.run(app, host="127.0.0.1", port=8000)

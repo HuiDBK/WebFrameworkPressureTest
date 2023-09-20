@@ -5,5 +5,9 @@ uvicorn==0.23.2
 # sanic
 sanic==23.6.0
 
+# tornado
+tornado==6.3.3
+gunicorn==21.2.0
+
 # db
 hui-tools[db-orm, db-redis]==0.2.0
