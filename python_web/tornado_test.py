@@ -110,5 +110,5 @@ async def main():
 
 
 if __name__ == "__main__":
-    # gunicorn -k tornado -w=4 -b=127.0.0.1:8002 python.tornado_test:app
+    # gunicorn -k tornado -w=4 -b=127.0.0.1:8002 python_web.tornado_test:app
     asyncio.run(main())
